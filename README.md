@@ -11,12 +11,12 @@
 CipherForge is a locally-hosted Capture The Flag (CTF) platform built with Docker, featuring custom-designed security challenges across multiple categories.
 
 **Categories:**
-- 🌐 Web Exploitation
-- 🔒 Cryptography
-- 🔍 Forensics
-- 🎯 Miscellaneous
-- ⚙️ Reverse Engineering
-- 🔑 Privilege Escalation
+   - 🌐 Web Exploitation (1 challenge)
+   - 🔒 Cryptography (coming soon)
+   - 🔍 Forensics (coming soon)
+   - 🎯 Miscellaneous (coming soon)
+   - ⚙️ Reverse Engineering (coming soon)
+   - 🔑 Privilege Escalation (coming soon)
 
 ---
 
@@ -40,14 +40,36 @@ CipherForge/
 ---
 
 ## 🚀 Quick Start
-
-*(Setup instructions coming soon)*
+   
+   ### Prerequisites
+   - Docker Desktop installed and running
+   - Git installed
+   
+   ### Launch CTFd Platform
+```bash
+   docker-compose up -d
+```
+   Access CTFd at: `http://localhost:8000`
+   
+   ### Run Individual Challenges
+   Each challenge has its own README with setup instructions.
+   
+   Example:
+```bash
+   cd challenges/web/hidden-in-plain-sight
+   docker build -t cipherforge/hidden-in-plain-sight .
+   docker run -d -p 8001:80 --name hidden-in-plain-sight cipherforge/hidden-in-plain-sight
+```
 
 ---
 
 ## 📸 Screenshots
-
-*(Screenshots and demos coming soon)*
+   
+   ### CTFd Platform
+   ![CTFd Dashboard](docs/screenshots/hidden-in-plain-sight/ctfd-challenges-list.png)
+   
+   ### Challenge Example: Hidden in Plain Sight
+   ![Challenge View](docs/screenshots/hidden-in-plain-sight/challenge-view.png)
 
 ---
 
