@@ -63,3 +63,29 @@ CipherForge{v13w_s0urc3_1s_y0ur_fr13nd}
 ## Tags
 
 `html` `source-code` `beginner` `web` `client-side`
+
+---
+
+## Screenshots
+
+### Challenge Interface
+![Challenge Page](../../../docs/screenshots/hidden-in-plain-sight/challenge-view.png)
+*The main challenge page with hint*
+
+### Solution
+![Page Source](../../../docs/screenshots/hidden-in-plain-sight/solution-view.png)
+*Flag found in HTML source code comments*
+
+### CTFd Platform
+
+![CTFd Challenge List](../../../docs/screenshots/hidden-in-plain-sight/ctfd-challenges-list.png)
+*Challenge displayed in CTFd platform*
+
+![Challenge Detail](../../../docs/screenshots/hidden-in-plain-sight/ctfd-challenge-detail.png)
+*Challenge description and submission interface*
+
+![Correct Submission](../../../docs/screenshots/hidden-in-plain-sight/ctfd-correct-flag.png)
+*Successful flag submission*
+
+![Scoreboard](../../../docs/screenshots/hidden-in-plain-sight/ctfd-scoreboard.png)
+*Player scoreboard after solving*

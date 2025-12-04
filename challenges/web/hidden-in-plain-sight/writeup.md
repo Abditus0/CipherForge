@@ -88,3 +88,15 @@ In real-world scenarios, developers sometimes leave:
 - Reading and understanding HTML comments
 
 **Time to Solve:** 1-3 minutes for beginners
+
+---
+
+## Screenshots
+
+### Challenge Page
+![Challenge](../../../docs/screenshots/hidden-in-plain-sight/challenge-view.png)
+
+### Finding the Flag
+![Solution](../../../docs/screenshots/hidden-in-plain-sight/solution-view.png)
+
+The flag is clearly visible in the HTML comments when viewing the page source.

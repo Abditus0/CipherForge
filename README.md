@@ -64,12 +64,17 @@ CipherForge/
 ---
 
 ## 📸 Screenshots
-   
-   ### CTFd Platform
-   ![CTFd Dashboard](docs/screenshots/hidden-in-plain-sight/ctfd-challenges-list.png)
-   
-   ### Challenge Example: Hidden in Plain Sight
-   ![Challenge View](docs/screenshots/hidden-in-plain-sight/challenge-view.png)
+
+### CTFd Platform Dashboard
+![CTFd Dashboard](docs/screenshots/hidden-in-plain-sight/ctfd-dashboard.png)
+*Local CTFd instance with custom challenges*
+
+### Challenge Example: Hidden in Plain Sight
+![Challenge View](docs/screenshots/hidden-in-plain-sight/challenge-view.png)
+*Web exploitation challenge interface*
+
+![Challenge List](docs/screenshots/hidden-in-plain-sight/ctfd-challenges-list.png)
+*Challenges displayed in CTFd platform*
 
 ---
 
@@ -84,10 +89,10 @@ CipherForge/
 
 ## 📚 Documentation
 
-See the `/docs` folder for:
-- Architecture diagrams
-- Challenge writeups
-- Setup guides
+- **[Challenge Index](docs/CHALLENGES.md)** - Complete list of all challenges
+- **[Architecture Overview](docs/README.md)** - System design and infrastructure
+- **[Setup Guide](#-quick-start)** - Installation and deployment instructions
+- **Challenge Writeups** - Available in each challenge folder
 
 ---
 
