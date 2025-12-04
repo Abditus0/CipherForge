@@ -73,7 +73,7 @@ CipherForge{v13w_s0urc3_1s_y0ur_fr13nd}
 *The main challenge page with hint*
 
 ### Solution
-![Page Source](../../../docs/screenshots/hidden-in-plain-sight/solution-view.png)
+![Page Source](../../../docs/screenshots/hidden-in-plain-sight/solution-view.png)   
 *Flag found in HTML source code comments*
 
 ### CTFd Platform
@@ -81,10 +81,10 @@ CipherForge{v13w_s0urc3_1s_y0ur_fr13nd}
 ![CTFd Challenge List](../../../docs/screenshots/hidden-in-plain-sight/ctfd-challenges-list.png)
 *Challenge displayed in CTFd platform*
 
-![Challenge Detail](../../../docs/screenshots/hidden-in-plain-sight/ctfd-challenge-detail.png)
+![Challenge Detail](../../../docs/screenshots/hidden-in-plain-sight/ctfd-challenge-detail.png)  
 *Challenge description and submission interface*
 
-![Correct Submission](../../../docs/screenshots/hidden-in-plain-sight/ctfd-correct-flag.png)
+![Correct Submission](../../../docs/screenshots/hidden-in-plain-sight/ctfd-correct-flag.png)    
 *Successful flag submission*
 
 ![Scoreboard](../../../docs/screenshots/hidden-in-plain-sight/ctfd-scoreboard.png)
