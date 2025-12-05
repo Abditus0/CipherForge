@@ -3,7 +3,7 @@
 ## Challenge Overview
 
 **Category:** Web  
-**Difficulty:** Easy  
+**Difficulty:** Medium  
 **Points:** 200
 
 SecureBank claims their login portal is completely secure. The goal is to bypass authentication and gain administrator access to retrieve the flag from the database.
