@@ -1,17 +1,20 @@
-# Use a small, stable Python image
-FROM python:3.11-slim
+FROM python:3.9-slim
 
-# Set the working directory inside the container
 WORKDIR /app
 
-# Copy everything from the challenge folder into the container
-COPY . /app
-
-# Install Flask (needed to run the web server)
+# Install Flask
 RUN pip install flask
 
-# Expose port 5000 so you can access the challenge in your browser
+# Copy all challenge files
+COPY app.py .
+COPY init_db.py .
+COPY flag.txt .
+
+# Initialize database
+RUN python init_db.py
+
+# Expose port
 EXPOSE 5000
 
-# Start the Flask application
+# Run the application
 CMD ["python", "app.py"]

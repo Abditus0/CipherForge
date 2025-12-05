@@ -44,3 +44,27 @@ Complete list of all CTF challenges in CipherForge.
 - [Guest Cookie](screenshots/cookie-monster/02-cookie-guest.png)
 - [Admin Cookie](screenshots/cookie-monster/03-cookie-admin.png)
 - [Flag Revealed](screenshots/cookie-monster/04-flag-revealed.png)
+
+---
+
+### 3. Injection Master 💉
+- **Difficulty:** Medium
+- **Points:** 200
+- **Category:** Web
+- **Concepts:** SQL Injection, database exploitation, authentication bypass
+- **Description:** Exploit SQL injection to bypass login and gain administrator access
+- **Files:** [Challenge Source](../challenges/web/injection-master/)
+- **Writeup:** [Solution Guide](../challenges/web/injection-master/writeup.md)
+- **Status:** ✅ Complete
+
+**Learning Objectives:**
+- Understanding SQL injection vulnerabilities and how they occur
+- SQL query manipulation and comment-based bypass techniques
+- Why parameterized queries are essential for security
+- Real-world impact of SQLi attacks on authentication systems
+
+**Screenshots:**
+- [Login Page](screenshots/injection-master/01-login-page.png)
+- [Guest Login](screenshots/injection-master/02-guest-login.png)
+- [SQLi Payload](screenshots/injection-master/03-sqli-payload.png)
+- [Flag Revealed](screenshots/injection-master/04-flag-revealed.png)
