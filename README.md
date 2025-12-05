@@ -1,10 +1,6 @@
-# 🔐 CipherForge
+# CipherForge
 
 **A cybersecurity portfolio project featuring custom CTF challenges and local infrastructure.**
-
-[![Challenges](https://img.shields.io/badge/Challenges-3-success)](docs/CHALLENGES.md)
-[![Categories](https://img.shields.io/badge/Categories-Web-blue)]()
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker)]()
 
 > **Current Focus:** Web exploitation vulnerabilities (SQL injection, authentication bypass, client-side security)
 
@@ -26,7 +22,7 @@ CipherForge is a locally-hosted Capture The Flag (CTF) platform featuring custom
 
 | # | Challenge | Category | Difficulty | Vulnerability Type | Port |
 |---|-----------|----------|------------|-------------------|------|
-| 1 | [Hidden in Plain Sight](challenges/web/hidden-in-plain-sight/) | Web | Easy | Information Disclosure | 8001 |
+| 1 | [Hidden in Plain Sight](challenges/web/hidden-in-plain-sight/) | Web | Easy | HTML source code comments | 8001 |
 | 2 | [Cookie Monster](challenges/web/cookie-monster/) | Web | Easy-Medium | Insecure Cookie Handling | 8002 |
 | 3 | [Injection Master](challenges/web/injection-master/) | Web | Medium | SQL Injection | 8003 |
 
